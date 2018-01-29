@@ -23,3 +23,15 @@ class accman {
     ensure => 'present',
   }
 }
+
+class accman::clean {
+  user { 'wmg':
+    ensure => 'absent',
+  }
+  group { 'wmg': 
+    ensure => 'absent',
+  }
+  file { '/home/wmg':
+    ensure => 'absent',
+  }
+}
