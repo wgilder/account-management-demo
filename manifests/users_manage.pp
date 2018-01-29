@@ -1,4 +1,4 @@
-class ab_demo::user_manage {
+class ab_demo::users_manage {
   user { 'sap-hana-user':
     ensure           => 'present',
     comment          => 'For use on machines with SAP HANA',

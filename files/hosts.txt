@@ -1,0 +1,4 @@
+127.0.0.1 localhost
+10.20.1.4 ubuntu1404a.pdx.puppet.vm ubuntu1404a
+10.20.1.3 centos7a.pdx.puppet.vm centos7a
+10.20.1.2 master.inf.puppet.vm master

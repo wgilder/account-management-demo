@@ -1,2 +1,0 @@
-class ab_demo {
-}
