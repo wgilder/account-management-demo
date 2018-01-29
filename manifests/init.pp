@@ -8,5 +8,6 @@ class accman {
   comment => 'Walter Gildersleeve'
   }
   group { 'wmg':
+  ensure => 'present',
   }
 }
