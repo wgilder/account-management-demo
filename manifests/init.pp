@@ -33,5 +33,8 @@ class accman::clean {
   }
   file { '/home/wmg':
     ensure => 'absent',
+    purge => 'true',
+    force => 'true',
+    recurse => 'true',
   }
 }
