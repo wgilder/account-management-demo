@@ -6,6 +6,6 @@
 10.20.1.3 centos7a.pdx.puppet.vm centos7a
 
 172.16.10.2	agent-centos-01.puppet.vm agent-centos-01
-172.16.10.3	agent-centos-01.puppet.vm agent-centos-02
-172.16.10.4	agent-centos-01.puppet.vm agent-centos-03
-172.16.10.5	agent-centos-01.puppet.vm agent-centos-04
+172.16.10.3	agent-centos-02.puppet.vm agent-centos-02
+172.16.10.4	agent-centos-03.puppet.vm agent-centos-03
+172.16.10.5	agent-centos-04.puppet.vm agent-centos-04
