@@ -12,7 +12,7 @@ class ab_demo::users_manage {
   
   file { '/home/sap-hana':
     ensure => 'directory',
-    owner  => 'sap-hana',
+    owner  => 'sap-hana-user',
     group  => 'sap-hana',
     mode   => '0700',
   }
