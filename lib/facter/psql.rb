@@ -1,5 +1,7 @@
 Facter.add(:postgres_server) do
-    confine :exists => "/var/lib/pgsql"
+    confine do
+        File.exist? '/var/lib/pgsql'
+    end
     setcode do
        "True"
     end
