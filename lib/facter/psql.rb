@@ -1,5 +1,5 @@
-Facter.add(:fact_this_is_a_test) do
-    confine :kernel => :Linux
+Facter.add(:postgres_server) do
+    confine :exists => "/var/lib/pgsql"
     setcode do
        "True"
     end
