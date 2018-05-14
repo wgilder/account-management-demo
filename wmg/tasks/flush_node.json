@@ -1,0 +1,12 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Remove a managed node from a Puppet Master",
+  "parameters": {
+    "nodes": {
+      "description": "The space-separated list of certnames to be removed from management",
+      "type": "String[1]"
+    }
+
+  }
+}

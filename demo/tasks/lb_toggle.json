@@ -1,0 +1,11 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": true,
+  "description": "Toggle for adding/removing node from load balancer",
+  "parameters": {
+    "toggle": {
+      "description": "Whether the node should be added to or removed from the load balancer",
+      "type": "Enum[add, remove]"
+    }
+  }
+}
